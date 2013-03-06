@@ -1,9 +1,0 @@
-GEM
-  specs:
-    rack (1.5.2)
-
-PLATFORMS
-  ruby
-
-DEPENDENCIES
-  rack
