@@ -106,9 +106,6 @@ article div {
 	text-align: center;
 	width: 33%;
 }
-div.greyed-out {
-	width: 100%;
-}
 
 /* ==============
     MOBILE: Menu
@@ -186,7 +183,7 @@ header.header-container {
 	overflow: hidden;
 }
 div.main-container div.wrapper {
-	width: 79%;
+	width: 90%;
 }
 div span {
 	display: block;
@@ -206,7 +203,10 @@ article a {
 article a:hover {
 	color: #383838;
 }
-span.greyed-out {
+.greyed-out {
+	color: #d4d4d4;
+}
+article a.greyed-out:hover {
 	color: #d4d4d4;
 }
 div.tipsy {
