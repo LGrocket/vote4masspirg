@@ -212,9 +212,16 @@ article a.greyed-out:hover {
 div.tipsy {
 	font: 16px/26px Helvetica, Helvetica Neau, Arial, San-Sarif;
 }
-
-
-
+span.devinfo {
+	float: left;
+	font-size: smaller;
+	color: #ccc;
+}
+span.devinfo a {
+	text-decoration: none;
+	font-style: italic;
+	color: #ccc;
+}
 
 
 /* ==========================================================================

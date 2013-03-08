@@ -4,6 +4,7 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+	 Lucas Rockett Gutterman -- Developer -- @LG_Rocket
 
 # THANKS
 
