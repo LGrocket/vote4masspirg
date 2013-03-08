@@ -99,7 +99,6 @@ body {
 	 margin: .2em 0 0 -.25em;
 	 letter-spacing: -.05em;
 	 font-size: 200px;
-	 font: 16px/26px Impact, Helvetica, Helvetica Neue, San-Sarif;
 	@font-face {
 		 font-family: 'impactregular';
 		 src: url('../font/impact-webfont.eot');
@@ -110,6 +109,7 @@ body {
 		 font-weight: normal;
 		 font-style: normal;
 	}
+	 font: 16px/26px Impact, Helvetica, Helvetica Neue, San-Sarif;
 }
 article div {
 	display: inline-block;
@@ -187,7 +187,6 @@ header.wrapper {
 	text-align: center;
 }
 body {
-	font: 16px/26px Proforma-book, Helvetica, Helvetica Neue, Arial, Sans-Sarif;
 	@font-face {
 		 font-family: 'proformabook';
 		 src: url('../proforma-book-webfont.eot');
@@ -199,6 +198,7 @@ body {
 		 font-style: normal;
 
 	}
+	font: 16px/26px Proforma-book, Helvetica, Helvetica Neue, Arial, Sans-Sarif;
 }
 header.header-container {
 	overflow: hidden;
@@ -269,6 +269,16 @@ span.devinfo a {
 	body {
 		width: 100%;
 		padding: 0 5px;
+	}
+	span.sm i.icon-twitter {
+		float: right;
+	}
+	span.sm i.icon-facebook {
+		float: left;
+	}
+	span.sm {
+		float: none;
+		font-size: 2.2em;
 	}
 	div.main {
 		width: 100%;
