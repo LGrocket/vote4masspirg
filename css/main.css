@@ -100,6 +100,16 @@ body {
 	 letter-spacing: -.05em;
 	 font-size: 200px;
 	 font: 16px/26px Impact, Helvetica, Helvetica Neue, San-Sarif;
+	@font-face {
+		 font-family: 'impactregular';
+		 src: url('../font/impact-webfont.eot');
+		 src: url('../impact-webfont.eot?#iefix') format('embedded-opentype'),
+				url('../impact-webfont.woff') format('woff'),
+				url('../impact-webfont.ttf') format('truetype'),
+				url('../impact-webfont.svg#impactregular') format('svg');
+		 font-weight: normal;
+		 font-style: normal;
+	}
 }
 article div {
 	display: inline-block;
@@ -178,6 +188,17 @@ header.wrapper {
 }
 body {
 	font: 16px/26px Proforma-book, Helvetica, Helvetica Neue, Arial, Sans-Sarif;
+	@font-face {
+		 font-family: 'proformabook';
+		 src: url('../proforma-book-webfont.eot');
+		 src: url('../proforma-book-webfont.eot?#iefix') format('embedded-opentype'),
+				url('../proforma-book-webfont.woff') format('woff'),
+				url('../proforma-book-webfont.ttf') format('truetype'),
+				url('../proforma-book-webfont.svg#proformabook') format('svg');
+		 font-weight: normal;
+		 font-style: normal;
+
+	}
 }
 header.header-container {
 	overflow: hidden;
