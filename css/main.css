@@ -97,7 +97,7 @@ body {
 .title {
     color: white;
 	 margin: .2em 0 0 -.25em;
-	 letter-spacing: -.05em;
+	 letter-spacing: -.1em;
 	 font-size: 200px;
 	@font-face {
 		 font-family: 'impactregular';
@@ -106,8 +106,6 @@ body {
 				url('../impact-webfont.woff') format('woff'),
 				url('../impact-webfont.ttf') format('truetype'),
 				url('../impact-webfont.svg#impactregular') format('svg');
-		 font-weight: normal;
-		 font-style: normal;
 	}
 	 font: 16px/26px Impact, Helvetica, Helvetica Neue, San-Sarif;
 }
@@ -266,9 +264,13 @@ span.devinfo a {
    ========================================================================== */
 
 @media only screen and (max-width: 800px) {
+
 	body {
 		width: 100%;
 		padding: 0 5px;
+	}
+	header {
+		width: 100%;
 	}
 	span.sm i.icon-twitter {
 		float: right;
@@ -278,7 +280,7 @@ span.devinfo a {
 	}
 	span.sm {
 		float: none;
-		font-size: 2.2em;
+		font-size: 2em;
 	}
 	div.main {
 		width: 100%;
@@ -290,20 +292,6 @@ span.devinfo a {
 }
 
 @media only screen and (max-width: 1050px) {
-
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-
-/* ============
-    WIDE: Main
-   ============ */
 
     .main article {
         width: 100%;
@@ -318,12 +306,8 @@ span.devinfo a {
 
 @media only screen and (max-width: 1140px) {
 
-/* ===============
-    Maximal Width
-   =============== */
-
     .wrapper {
-        width: 95%; /* 1140px - 10% for margins */
+        width: 95%; 
         margin: 0 auto;
     }
 }
