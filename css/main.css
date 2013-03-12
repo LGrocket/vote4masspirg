@@ -227,9 +227,19 @@ div span {
 article div {
 	vertical-align: bottom;
 }
-span.info {
+span.info, span.hasCountdown {
 	font-size: smaller;
 	color: grey;
+	line-height: .5em;
+	border: 0;
+	background-color: #fff;
+	padding-bottom: .7em;
+}
+span.info {
+	padding-top: 2.5em;
+}
+span.hasCountdown span {
+	padding-bottom: 8px;
 }
 a {
 	color: #222;
